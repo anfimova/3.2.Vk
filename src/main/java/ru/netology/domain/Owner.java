@@ -7,4 +7,8 @@ public class Owner {
     private String name;
     private String imgUrl;
 
+    public Owner getOwner() {
+        return null;
+    }
+
 }

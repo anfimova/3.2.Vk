@@ -5,4 +5,8 @@ public class Like {
     private int id;
     private int owner;
 
+    public Like getLike() {
+        return null;
+    }
+
 }
