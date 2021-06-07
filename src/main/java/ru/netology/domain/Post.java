@@ -3,7 +3,7 @@ package ru.netology.domain;
 import java.sql.Time;
 import java.util.Date;
 
-public class PostInfo {
+public class Post {
 
     private int id;
     private Owner owner;

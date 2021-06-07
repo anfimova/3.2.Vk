@@ -6,4 +6,8 @@ public class Message {
     private String owner;
     private String text;
 
+    public Message getMessage() {
+        return null;
+    }
+
 }

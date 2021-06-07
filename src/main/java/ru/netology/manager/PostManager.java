@@ -1,12 +1,12 @@
 package ru.netology.manager;
 
-import ru.netology.domain.PostInfo;
+import ru.netology.domain.Post;
 
 public class PostManager {
 
-    private PostInfo[] post;
+    private Post[] posts;
 
-    public PostInfo[] getPostInfo() {
+    public Post[] getPostsInfo() {
         return null;
     }
 }
