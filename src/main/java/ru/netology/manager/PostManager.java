@@ -6,7 +6,10 @@ public class PostManager {
 
     private Post[] posts;
 
-    public Post[] getPostsInfo() {
+    public Post[] search(int ownerId, String domain, String query, boolean isOwnersOnly, int count, int offset) {
         return null;
     }
+
+    public void delete(int ownerId, int postId) {}
+
 }

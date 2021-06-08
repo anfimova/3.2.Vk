@@ -1,19 +1,35 @@
 package ru.netology.domain;
 
-import java.sql.Time;
-import java.util.Date;
-
 public class Post {
 
     private int id;
-    private Owner owner;
-    private Date date;
-    private Time time;
+    private int ownerId;
+    private int fromId;
+    private int createdBy;
+    private int date;
     private String text;
-    private String imgUrl;
-    private Like like;
-    private Message message;
-    private Share share;
-    private View view;
+    private int replyOwnerId;
+    private int replyPostId;
+    private boolean isFriendsOnly;
+    private CommentsInfo commentsInfo;
+    private Copyright copyright;
+    private LikesInfo likesInfo;
+    private RepostsInfo repostsInfo;
+    private ViewsInfo viewsInfo;
+    private PostType postType;
+    private PostSource postSource;
+    private Geo geo;
+    private int signerId;
+    private boolean canPin;
+    private boolean canDelete;
+    private boolean canEdit;
+    private boolean isPinned;
+    private boolean isMarkedAsAds;
+    private boolean isFavorite;
+    private Donut donut;
+    private int postponedId;
 
 }
+
+
+
